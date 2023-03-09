@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Admin Dashboard | Redesign</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="logo-apple"></ion-icon>
+            </span>
+            <span class="title">Jonas Dalethese</span>
+          </a>
+        </li>
+        <li class="list active">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+            <span class="title">Profile</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </span>
+            <span class="title">Messages</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="settings-outline"></ion-icon>
+            </span>
+            <span class="title">Setting</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="help-outline"></ion-icon>
+            </span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            </span>
+            <span class="title">Password</span>
+          </a>
+        </li>
+        <li class="list">
+          <span class="blueBorder"></span>
+          <span class="blueBorder"></span>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="log-out-outline"></ion-icon>
+            </span>
+            <span class="title">Sing on</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+      <div class="topbar">
+        <div class="toggle">
+          <ion-icon name="menu-outline" class="openMenu"></ion-icon>
+        </div>
+        <!-- SEARCH -->
+        <div class="search">
+          <label>
+            <input type="text" placeholder="Search here">
+            <ion-icon name="search-outline"></ion-icon>
+          </label>
+        </div>
+        <!-- userImg -->
+        <div class="user">
+          <img src="assets/37677760_2269520913088645_498753940536426496_n.jpg" alt="profile picture">
+        </div>
+      </div>
+
+      <!-- main-cards -->
+      <div class="cardBox">
+        <div class="card">
+          <div>
+            <div class="numbers">1,504</div>
+            <div class="cardName">Daily Views</div>
+          </div>
+          <div class="iconBox">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">80</div>
+            <div class="cardName">Sales</div>
+          </div>
+          <div class="iconBox">
+            <ion-icon name="cart-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">284</div>
+            <div class="cardName">Comments</div>
+          </div>
+          <div class="iconBox">
+            <ion-icon name="chatbubbles-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">R$7,850</div>
+            <div class="cardName">Earning</div>
+          </div>
+          <div class="iconBox">
+            <ion-icon name="cash-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <!-- Order data list -->
+      <div class="details">
+        <div class="recentOrders">
+          <div class="cardHeader">
+            <h2>Recent Orders</h2>
+            <a href="#" class="btn">View All</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Payment</th>
+                <th>Stauts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status delivered">Delivered</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status pending">Pending</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status return">Return</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status inprogress">In Progress</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status delivered">Delivered</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status delivered">Delivered</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status inprogress">In Progress</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status delivered">Delivered</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status return">Return</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status pending">Pending</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Star Refrigerator</td>
+                <td>R$1200</td>
+                <td>Paid</td>
+                <td>
+                  <span class="status return">Return</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- New Costumers -->
+        <div class="recentCustomers">
+          <div class="cardHeader">
+            <h2>Recent Customers</h2>
+          </div>
+          <table>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img1.jpg" alt=""></div></td>
+              <td><h4>David</h4><br><span>Italy</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img2.jpg" alt=""></div></td>
+              <td><h4>Muhammad</h4><br><span>India</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img3.jpg" alt=""></div></td>
+              <td><h4>Amelia</h4><br><span>France</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img4.jpg" alt=""></div></td>
+              <td><h4>Olivia</h4><br><span>USA</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img5.jpg" alt=""></div></td>
+              <td><h4>Naruto</h4><br><span>Japan</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img6.jpg" alt=""></div></td>
+              <td><h4>Ashraf</h4><br><span>India</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img7.jpg" alt=""></div></td>
+              <td><h4>Diana</h4><br><span>Malaysia</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img8.jpg" alt=""></div></td>
+              <td><h4>David</h4><br><span>Brasil</span></td>
+            </tr>
+            <tr>
+              <td width="60px"><div class="imgBx"><img src="assets/img9.jpg" alt=""></div></td>
+              <td><h4>João</h4><br><span>Brasil</span></td>
+            </tr>
+          </table>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
